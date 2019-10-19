@@ -1,0 +1,364 @@
+@font-face {
+font-family: 'Adelle Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Adelle Regular'), url('Adelle_Reg.woff') format('woff');
+}
+
+@font-face {font-family:"Vintage Warehouse";src:url("../fonts/Vintage_Warehouse.eot?") format("eot"),url("../fonts/Vintage_Warehouse.woff") format("woff"),url("../fonts/Vintage_Warehouse.ttf") format("truetype"),url("../fonts/Vintage_Warehouse.svg#VintageWarehouse") format("svg");font-weight:normal;font-style:normal;}
+
+*{
+  object-fit: cover;
+}
+body{
+    font-family: 'Adelle Regular';
+    color: beige;
+    margin: 0px;
+    padding:0px;
+    background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    overflow-x: hidden;
+
+    }
+.kylogo{
+    top: 0px;
+    left: 20px;
+
+}
+
+@media screen and (orientation:landscape){
+  .kylogo{
+  width: 100px;
+  position: absolute;
+}
+}
+@media screen and (orientation:portrait){
+  .evName{
+    font-family: 'Vintage Warehouse' !important;
+     font-weight: normal;
+     color: #8EF9F3;
+  }
+  .kylogo{
+    margin-top: 20px;
+  width: 70px;
+}
+}
+#eventpg{
+
+    position: relative;
+    top: 0px;
+    margin: 40px;
+    margin-left: 0;
+    padding:0px;
+    width: 100%;
+    height: 100vh;
+    background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #faf2eb;
+    text-align: center;
+    line-height: 0px;
+    font-size: 85px;
+    background-image: url();
+    overflow: hidden;
+
+
+}
+
+#eventpg div:first-child{
+	margin-top:0px;
+
+}
+
+.evName{
+    display: none;
+}
+
+.subeventpg {
+  background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 0px;
+    width: 98%;
+    height: 95vh;
+    margin: 30px auto ;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+
+    }
+
+.sename{
+    float: left;
+    display: block;
+    padding-bottom:30px;
+    font-size: 30px;
+    background-color: green;
+    height: 100%;
+    color: #faf2eb;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+    writing-mode: vertical-rl;
+    line-height:0px;
+
+}
+
+.sename:hover{
+	font-size: 31px;
+}
+
+.semain{
+    display: none;
+    float: left;
+    background: #457fca;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #545677, #EB9FEF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #545677, #EB9FEF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100%;
+    width:60%;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+    padding: 0px;
+    text-align: center;
+    font-size: 120%;
+    color: #ccc;
+    animation-name: slowOpen;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+    animation-direction: normal;
+
+
+}
+
+@keyframes slowOpen{
+	0%{width:0%;}
+	100%{width:60%;}
+        }
+
+
+.mainimg{
+    float: left;
+    margin-bottom: 25px;
+    padding: 0px;
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+}
+
+.seContent{
+    margin: 40px;
+}
+
+#sub_event_footer{
+    position: absolute;
+    padding:0px;
+    bottom: 25vh;
+    left:0px;
+    width: 100%;
+    height: 27vh;
+    font-size: 40px;
+    background-color: rgba(0,0,0,0);
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+@media screen and (orientation:landscape)  {
+  #sub_event_footer{
+      zoom:1.4;
+  }
+}
+@media screen and (orientation:portrait)  {
+.abhinaybox, .bandishbox, .crosswindsbox, .natrajbox, .miragebox, .toolikabox {
+    zoom:1.2;
+}
+.enquiztabox{
+    zoom:1.12;
+}
+}
+
+.box{
+
+    display: inline-block;
+    text-align: center;
+  }
+.img{
+    margin-left:20px;
+    padding: 3px;
+    height: 200px;
+    width: 230px;
+    background-color: aliceblue;
+    display: inline-table;
+        }
+
+.jname{
+     width: 236px;
+     height: 30px;
+     padding: 0.1px;
+     margin-left: 20px;
+     text-align: center;
+     font-size: 15px;
+     color :#1f7994;
+     background-color: aliceblue;
+   }
+
+.eventnameAnimation{
+  font-family: 'Vintage Warehouse';
+   font-weight: normal;
+   color: #8EF9F3
+}
+
+/------------------------------------------phone--------------------------------------/
+
+
+
+
+@media screen and (max-width:800px){
+
+            .kylogo{
+                position: unset;
+                width:50px;
+            }
+            .semain{
+                overflow-x: scroll;
+                height: 100vh;
+            }
+            .sename{
+                height: 96vh;
+            }
+           .subeventpg {
+                 padding:0px;
+                 margin:0px;
+                 overflow:visible;
+                 width:100%;
+                 height: 100vh;
+            }
+
+            #eventpg{
+                 font-size: 100px;
+                 height:100vh;
+                 line-height:2vh;
+                 list-style: width 2vh;
+                 animation: none;
+
+
+            }
+            #sub_event_footer{
+                bottom: 40vh;
+                font-size: 30px;
+
+
+            }
+            .eventnameAnimation{
+                animation: none;
+                font-size: 40px;
+                display: none;
+            }
+            .img{
+
+                width: 180px;
+                height: 180px;
+                display: inline-block;
+            }
+            .jname{
+                width: 176px;
+                height: 26px;
+                padding: 5px;
+                font-size: 15px;
+                line-height: 0px;
+            }
+            .box{
+                margin-left: 0px;
+                margin-top: 30px;
+            }
+
+            .evName{
+                display: block;
+                font-size: 60px;
+            }
+
+                }
+@media screen and (max-width:600px){
+
+        .sename{
+             clear: both;
+             height:5vh;
+             font-size: 20px;
+                    }
+
+        .sename{
+             width:100%!important;
+             writing-mode: horizontal-tb;
+                    }
+
+         .semain{
+             clear:both;
+             width:100%;
+             height:100vh;
+             overflow-x: scroll;
+             animation-name: openDown;
+             animation-duration: 1s;
+             animation-iteration-count: initial;
+             animation-direction: normal;
+
+                    }
+
+        @keyframes openDown{
+            0%{height:0vh;}
+            100%{height:100vh;}
+                    }
+        .subeventpg {
+             padding:0px;
+             margin:0px;
+             overflow:visible;
+             width:100%;
+                    }
+
+        #eventpg{
+             font-size: 100px;
+             height:100vh;
+             line-height:2vh;
+             list-style: width 2vh;
+             animation: none;
+                    }
+        #sub_event_footer{
+            bottom: 36vh;
+            font-size: 30px;
+                     }
+
+ #sub_event_footer > p{
+            margin-bottom: -15px;
+                     }
+
+        .eventnameAnimation{
+            animation: none;
+            font-size: 40px;
+            display: none;
+                    }
+        .img{
+
+            width: 120px;
+            height: 100px;
+            display: inline-block;
+                    }
+        .jname{
+            width: 116px;
+            height: 16px;
+            padding: 5px;
+            font-size: 10px;
+            line-height: 0px;
+                    }
+        .box{
+            margin-left: 0px;
+            margin-top: 30px;
+                    }
+
+        .evName{
+            display: block;
+            font-size: 60px;
+                    }
+
+        }
