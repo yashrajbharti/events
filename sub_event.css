@@ -96,7 +96,7 @@ background: linear-gradient(to bottom, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, 
     float: left;
     display: block;
     padding-bottom:30px;
-    font-size: 30px;
+    font-size: 27px;
     background-color: green;
     height: 100%;
     color: #faf2eb;
@@ -107,15 +107,15 @@ background: linear-gradient(to bottom, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, 
 }
 
 .sename:hover{
-	font-size: 31px;
+	font-size: 28px;
 }
 
 .semain{
     display: none;
     float: left;
     background: #457fca;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #545677, #EB9FEF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #545677, #EB9FEF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to top, #E7AD99, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #E7AD99, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     height: 100%;
     width:60%;
@@ -123,7 +123,7 @@ background: linear-gradient(to top, #545677, #EB9FEF); /* W3C, IE 10+/ Edge, Fir
     padding: 0px;
     text-align: center;
     font-size: 120%;
-    color: #ccc;
+    color: #1D2671;
     animation-name: slowOpen;
     animation-duration: 1s;
     animation-iteration-count: initial;
